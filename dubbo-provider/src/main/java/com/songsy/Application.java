@@ -14,7 +14,7 @@ public class Application {
         System.out.println(context.getDisplayName() + ":here");
         context.start();
         System.out.println("provider 模块启动成功");
-        // 为保证服务一直开着，利用输入流的阻塞来模拟
+        // 为保证服务一直开着，利用输入流的阻塞来模拟 按任意键退出
         System.in.read();
 
 
